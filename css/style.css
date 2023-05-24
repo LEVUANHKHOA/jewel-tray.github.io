@@ -1,8 +1,7 @@
 body{
-	line-height: 1.5;
-	font-family: 'IBM Plex Sans', sans-serif;
+	/* 
     font-family: 'Noto Sans', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif; */
 	font-weight: 400;
 	overflow-x: hidden;
 }
@@ -193,7 +192,7 @@ img{
 .header .item-right{
 	flex:0 0 17%;
 	display: flex;
-	
+	line-height: 1px;
 }
 .header .item-right a{ 
      text-decoration: none;
@@ -417,7 +416,7 @@ background-color: #fabe00;
 	margin: 0 0 3.05rem 0;
 }
 .section-product .item-image{
-	flex: 30%;
+	
 	margin: 0.78125vw;
 	border: 1px solid #c3ba7f;
 }
@@ -567,7 +566,7 @@ footer .img-logo{
 	position: relative;
   }
   footer .box .content ul li{
-	margin: 0 3rem 0 0;
+	margin: 0 2.5rem 0 0;
 	font-size: 0.94rem;
   }
   footer .box .content ul li a:hover{
