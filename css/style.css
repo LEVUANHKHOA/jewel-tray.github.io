@@ -1,7 +1,4 @@
 body{
-	/* 
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif; */
 	font-weight: 400;
 	overflow-x: hidden;
 }
@@ -1018,28 +1015,128 @@ footer .main-content .content .footer-list .list-1{
 	.Section-voice .voice-image {
 		margin: 0 16px;
 	}
+	
 	footer .box .content ul li {
 		font-size: 12px;
 	}
 
 }
-
+@media screen and (max-width: 1280px){
+	
+	footer .main-content .left{
+		flex-basis: 40%;
+	}
+	footer .main-content .right{
+		flex-basis: 60%;
+	}
+}
+@media screen and (max-width: 1230px){
+	.header .item-center{
+		flex: 0 0 65%;
+	}
+	.header .menu > ul {
+		line-height: 1px;
+	}
+	.section-new{
+		padding: 0 1rem;
+	}
+}
 @media screen and (max-width: 1200px){
-	
-	
+	.header .item-center{
+		flex: 0 0 70%;
+	}
+	.header .item-right{
+		flex: 0 0 10%;
+	}
+	.header .menu > ul > li{
+		margin-left: 2rem;
+	}
+	.section-new .new-container ul li img{
+		margin: 0 0 0 2rem;
+	}
+	footer .box .content .footer-contact ul li{
+		margin: 0 2rem 1rem 0;
+	}
 }
 
-/* Slide End */
-
-/* Jewl-Tray Start */
-
+@media screen and (max-width: 1100px){
+	.button-1{
+		padding: 0.5rem 2rem;
+	}
+}
+@media screen and (max-width: 1080px){
+	.header .menu > ul > li{
+		margin-left: 2rem;
+	}
+	.concept-box .img-right{
+		width: 20%;
+		position: absolute;
+		right: -10%;
+		top: 9%;
+		transform: translate(-50%, -50%);
+	}
+	.concept-box .concept-container{
+		padding-bottom: 10%;
+	}
+	.section-new .new-container ul li img{
+		margin: 0 0 0 1rem;
+	}
+}
+@media screen and (max-width: 1050px){
+	.header .item-center{
+		flex: 0 0 66%;
+	}
+}
 @media screen and (max-width: 1024px){
-
+	.Jewl-Tray-Box {
+		flex-direction: column;
+	}
+	.Jewl-Tray-Box .box{
+		justify-content: center;
+	}
+	footer .main-content{
+		flex-direction: column;
+	}
+	footer .main-content .left{
+		margin: 0 auto;
+	}
+	footer .main-content .left .content{
+		text-align: center;
+	}
+	footer .main-content .right{
+		justify-content: center;
+	}
+	footer .main-content .contact .contact-box{
+		justify-content: center;
+	}
+	footer .main-content .right .footer-contact{
+		display: block;
+		text-align: center;
+	}
+	footer .main-content .right .footer-contact ul{
+		margin-bottom: 2rem;
+	}
+	footer .main-content .right .footer-contact .footer-social{
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+	footer .main-content .right  .footer-list{
+		justify-content: space-around;
+	}
+	footer .bottom{
+		text-align: center;
+	}
 }
 
-/* Jewl-Tray End */
-
-/* Footer start */
+@media screen and (max-width: 990px){
+	.header .item-center{
+		flex: 0 0 100%;
+	}
+	.header .social-media-pc{
+		display: none;
+	}
+}
 
 @media screen and (max-width: 900px) {
 	footer{
@@ -1088,7 +1185,12 @@ footer .main-content .content .footer-list .list-1{
 		font-size: 100%;
     	margin: 0 0 5% 0;
 	}
-	
+	.section-product .item-box{
+		flex-direction: column;
+	}
+	.section-product .item-box .item-image{
+		text-align: center;
+	}
 	/* section product */
 
 	/* section concept*/
@@ -1139,9 +1241,19 @@ footer .main-content .content .footer-list .list-1{
 
 	.Section-Jewl-Tray .box{
 		flex-direction: column;
+		margin: 0 auto;
 	}
 	.Section-Jewl-Tray .box .mini-box{
 		margin-bottom: 10rem;
+	}
+	.Section-Jewl-Tray .Jewl-Tray-Box p{
+		text-align: center;
+	}
+	.Section-Jewl-Tray .Jewl-Tray-Box ul{
+		justify-content: center;
+	}
+	.Section-Jewl-Tray .button-box{
+		padding: 10%;
 	}
 	/* stray box end */
 
